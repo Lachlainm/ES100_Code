@@ -1,0 +1,13 @@
+[New Thread 0x2c03 of process 77957]
+[New Thread 0x2d03 of process 77957]
+[New Thread 0x2e03 of process 77957]
+
+warning: Error calling thread_get_state for GP registers for thread 0x2c03
+
+
+warning: Mach error at "../../gdb/i386-darwin-nat.c:132" in function "fetch_registers": (os/kern) invalid argument (0x4)
+
+warning: unhandled dyld version (17)
+0x00007ff81180ce1e in ?? ()
+/tmp/gdb.78135:2: Error in sourced command file:
+Can't create a corefile

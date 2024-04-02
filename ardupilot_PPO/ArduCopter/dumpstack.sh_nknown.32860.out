@@ -1,0 +1,112 @@
+[New Thread 0x2c03 of process 32860]
+[New Thread 0x2d03 of process 32860]
+[New Thread 0x2e03 of process 32860]
+
+warning: Error calling thread_get_state for GP registers for thread 0x2c03
+
+
+warning: Mach error at "../../gdb/i386-darwin-nat.c:132" in function "fetch_registers": (os/kern) invalid argument (0x4)
+
+warning: unhandled dyld version (17)
+0x00007ff81180ce1e in ?? ()
+#0  0x00007ff81180ce1e in ?? ()
+No symbol table info available.
+#1  0x00007ff811785a66 in ?? ()
+No symbol table info available.
+#2  0x0000000000000001 in ?? ()
+No symbol table info available.
+#3  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 3 (Thread 0x2e03 of process 32860):
+#0  0x00000001083744ec in ?? ()
+No symbol table info available.
+#1  0x000000010845d840 in ?? ()
+No symbol table info available.
+#2  0x0000000108482f90 in ?? ()
+No symbol table info available.
+#3  0x000070000f1d3c30 in ?? ()
+No symbol table info available.
+#4  0x0000000108370b3f in ?? ()
+No symbol table info available.
+#5  0x3f80000000000000 in ?? ()
+No symbol table info available.
+#6  0x000000000931438c in ?? ()
+No symbol table info available.
+#7  0x0000000108481d80 in ?? ()
+No symbol table info available.
+#8  0x0000000009313fa4 in ?? ()
+No symbol table info available.
+#9  0x000070000f1d3c60 in ?? ()
+No symbol table info available.
+#10 0x000000010837458c in ?? ()
+No symbol table info available.
+#11 0x0000000000000002 in ?? ()
+No symbol table info available.
+#12 0x0000000000025a70 in ?? ()
+No symbol table info available.
+#13 0x0000000000000002 in ?? ()
+No symbol table info available.
+#14 0x0000000000025a6e in ?? ()
+No symbol table info available.
+#15 0x000070000f1d3ca0 in ?? ()
+No symbol table info available.
+#16 0x0000000108374603 in ?? ()
+No symbol table info available.
+#17 0x000000010845d840 in ?? ()
+No symbol table info available.
+#18 0x0000600000fd4010 in ?? ()
+No symbol table info available.
+#19 0x0000000108482f90 in ?? ()
+No symbol table info available.
+#20 0x000070000f1d3e50 in ?? ()
+No symbol table info available.
+#21 0x0000000000013a15 in ?? ()
+No symbol table info available.
+#22 0x00007fa96d904aa0 in ?? ()
+No symbol table info available.
+#23 0x000070000f1d3f80 in ?? ()
+No symbol table info available.
+#24 0x00000001082aa720 in ?? ()
+No symbol table info available.
+#25 0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 2 (Thread 0x2d03 of process 32860):
+#0  0x00007ff8118062be in ?? ()
+No symbol table info available.
+#1  0x00007ff81171a863 in ?? ()
+No symbol table info available.
+#2  0x000070000f150ea0 in ?? ()
+No symbol table info available.
+#3  0x0000000108374e0e in ?? ()
+No symbol table info available.
+#4  0x00007fa96dc05700 in ?? ()
+No symbol table info available.
+#5  0x0000000108482f90 in ?? ()
+No symbol table info available.
+#6  0x0000000108481870 in ?? ()
+No symbol table info available.
+#7  0x000000000931438c in ?? ()
+No symbol table info available.
+#8  0x000070000f150ed0 in ?? ()
+No symbol table info available.
+#9  0x00007ff81171a799 in ?? ()
+No symbol table info available.
+#10 0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 1 (Thread 0x2c03 of process 32860):
+#0  0x00007ff81180ce1e in ?? ()
+No symbol table info available.
+#1  0x00007ff811785a66 in ?? ()
+No symbol table info available.
+#2  0x0000000000000001 in ?? ()
+No symbol table info available.
+#3  0x0000000000000000 in ?? ()
+No symbol table info available.
+A debugging session is active.
+
+	Inferior 1 [process 32860] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

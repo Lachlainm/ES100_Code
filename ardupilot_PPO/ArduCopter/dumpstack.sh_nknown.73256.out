@@ -1,0 +1,80 @@
+[New Thread 0x2b03 of process 73256]
+[New Thread 0x2c03 of process 73256]
+[New Thread 0x5303 of process 73256]
+
+warning: Error calling thread_get_state for GP registers for thread 0x2b03
+
+
+warning: Mach error at "../../gdb/i386-darwin-nat.c:132" in function "fetch_registers": (os/kern) invalid argument (0x4)
+
+warning: unhandled dyld version (17)
+0x00007ff8118062be in ?? ()
+#0  0x00007ff8118062be in ?? ()
+No symbol table info available.
+#1  0x00007ff81171a863 in ?? ()
+No symbol table info available.
+#2  0x000070000ff88ea0 in ?? ()
+No symbol table info available.
+#3  0x000000010e71fc8e in ?? ()
+No symbol table info available.
+#4  0x00007f8b71e04570 in ?? ()
+No symbol table info available.
+#5  0x000000010e82df90 in ?? ()
+No symbol table info available.
+#6  0x000000010e82c870 in ?? ()
+No symbol table info available.
+#7  0x0000000003a09c5a in ?? ()
+No symbol table info available.
+#8  0x000070000ff88ed0 in ?? ()
+No symbol table info available.
+#9  0x00007ff81171a799 in ?? ()
+No symbol table info available.
+#10 0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 3 (Thread 0x5303 of process 73256):
+#0  0x00007ff81180ce1e in ?? ()
+No symbol table info available.
+#1  0x00007ff811785a66 in ?? ()
+No symbol table info available.
+#2  0x0000000000000001 in ?? ()
+No symbol table info available.
+#3  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 2 (Thread 0x2c03 of process 73256):
+#0  0x00007ff8118062be in ?? ()
+No symbol table info available.
+#1  0x00007ff81171a863 in ?? ()
+No symbol table info available.
+#2  0x0000000000000000 in ?? ()
+No symbol table info available.
+
+Thread 1 (Thread 0x2b03 of process 73256):
+#0  0x00007ff8118062be in ?? ()
+No symbol table info available.
+#1  0x00007ff81171a863 in ?? ()
+No symbol table info available.
+#2  0x000070000ff88ea0 in ?? ()
+No symbol table info available.
+#3  0x000000010e71fc8e in ?? ()
+No symbol table info available.
+#4  0x00007f8b71e04570 in ?? ()
+No symbol table info available.
+#5  0x000000010e82df90 in ?? ()
+No symbol table info available.
+#6  0x000000010e82c870 in ?? ()
+No symbol table info available.
+#7  0x0000000003a09c5a in ?? ()
+No symbol table info available.
+#8  0x000070000ff88ed0 in ?? ()
+No symbol table info available.
+#9  0x00007ff81171a799 in ?? ()
+No symbol table info available.
+#10 0x0000000000000000 in ?? ()
+No symbol table info available.
+A debugging session is active.
+
+	Inferior 1 [process 73256] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

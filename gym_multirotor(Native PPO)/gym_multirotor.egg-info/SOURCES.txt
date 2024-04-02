@@ -1,0 +1,8 @@
+README.md
+setup.py
+gym_multirotor/__init__.py
+gym_multirotor.egg-info/PKG-INFO
+gym_multirotor.egg-info/SOURCES.txt
+gym_multirotor.egg-info/dependency_links.txt
+gym_multirotor.egg-info/requires.txt
+gym_multirotor.egg-info/top_level.txt

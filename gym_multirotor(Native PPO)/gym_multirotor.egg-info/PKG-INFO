@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gym-multirotor
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://adipandas.github.io
+Author: Aditya M. Deshpande
+Author-email: adityadeshpande2010@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: all
+Provides-Extra: mujoco

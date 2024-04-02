@@ -1,0 +1,47 @@
+session_name: run-all-QuadrotorPlusHoverEnv-v0
+windows:
+- panes:
+  - '/home/lachlainm/Sihde_sims/myenv38/bin/python /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/main_ppo.py
+    --algo ppo --use-gae --log-interval 1 --num-steps 2000 --num-processes 1 --lr
+    5e-5 --entropy-coef 0 --clip-param 0.1 --value-loss-coef 0.5 --ppo-epoch 4 --num-mini-batch
+    32 --hidden-size 150 --gamma 0.99 --gae-lambda 0.95 --num-env-steps 20000000 --no-cuda
+    --use-proper-time-limits --seed 1000 --env-name QuadrotorPlusHoverEnv-v0 --log-dir
+    /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/logs/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-0
+    --save-dir /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/trained_models/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-0/ '
+  window_name: seed-0
+- panes:
+  - '/home/lachlainm/Sihde_sims/myenv38/bin/python /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/main_ppo.py
+    --algo ppo --use-gae --log-interval 1 --num-steps 2000 --num-processes 1 --lr
+    5e-5 --entropy-coef 0 --clip-param 0.1 --value-loss-coef 0.5 --ppo-epoch 4 --num-mini-batch
+    32 --hidden-size 150 --gamma 0.99 --gae-lambda 0.95 --num-env-steps 20000000 --no-cuda
+    --use-proper-time-limits --seed 1001 --env-name QuadrotorPlusHoverEnv-v0 --log-dir
+    /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/logs/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-1
+    --save-dir /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/trained_models/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-1/ '
+  window_name: seed-1
+- panes:
+  - '/home/lachlainm/Sihde_sims/myenv38/bin/python /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/main_ppo.py
+    --algo ppo --use-gae --log-interval 1 --num-steps 2000 --num-processes 1 --lr
+    5e-5 --entropy-coef 0 --clip-param 0.1 --value-loss-coef 0.5 --ppo-epoch 4 --num-mini-batch
+    32 --hidden-size 150 --gamma 0.99 --gae-lambda 0.95 --num-env-steps 20000000 --no-cuda
+    --use-proper-time-limits --seed 1002 --env-name QuadrotorPlusHoverEnv-v0 --log-dir
+    /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/logs/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-2
+    --save-dir /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/trained_models/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-2/ '
+  window_name: seed-2
+- panes:
+  - '/home/lachlainm/Sihde_sims/myenv38/bin/python /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/main_ppo.py
+    --algo ppo --use-gae --log-interval 1 --num-steps 2000 --num-processes 1 --lr
+    5e-5 --entropy-coef 0 --clip-param 0.1 --value-loss-coef 0.5 --ppo-epoch 4 --num-mini-batch
+    32 --hidden-size 150 --gamma 0.99 --gae-lambda 0.95 --num-env-steps 20000000 --no-cuda
+    --use-proper-time-limits --seed 1003 --env-name QuadrotorPlusHoverEnv-v0 --log-dir
+    /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/logs/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-3
+    --save-dir /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/trained_models/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-3/ '
+  window_name: seed-3
+- panes:
+  - '/home/lachlainm/Sihde_sims/myenv38/bin/python /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/main_ppo.py
+    --algo ppo --use-gae --log-interval 1 --num-steps 2000 --num-processes 1 --lr
+    5e-5 --entropy-coef 0 --clip-param 0.1 --value-loss-coef 0.5 --ppo-epoch 4 --num-mini-batch
+    32 --hidden-size 150 --gamma 0.99 --gae-lambda 0.95 --num-env-steps 20000000 --no-cuda
+    --use-proper-time-limits --seed 1004 --env-name QuadrotorPlusHoverEnv-v0 --log-dir
+    /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/logs/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-4
+    --save-dir /home/lachlainm/Sihde_sims/gym_multirotor/examples/rl/experiments_from_paper/experiments_data/trained_models/QuadrotorPlusHoverEnv/QuadrotorPlusHoverEnv-4/ '
+  window_name: seed-4

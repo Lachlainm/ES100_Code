@@ -1,4 +1,0 @@
-Unable to find Mach task port for process-id 21908: (os/kern) failure (0x5).
- (please check gdb is codesigned - see taskgated(8))
-/tmp/gdb.21916:2: Error in sourced command file:
-No stack.
